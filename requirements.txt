@@ -1,0 +1,13 @@
+# Core IA
+numpy>=1.23.5
+tensorflow>=2.13.0
+
+# Interface Graphique
+pygame>=2.5.0
+
+# Analyse et Visualisation
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Tests et Qualité
+pytest>=7.0.0
