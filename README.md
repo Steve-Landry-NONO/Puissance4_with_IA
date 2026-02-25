@@ -1,7 +1,7 @@
 Puissance 4 Intelligent : Deep Q-Learning & Minimax
 
 Ce projet est réalisé dans le cadre de ma formation IATIC-5 à l'ISTY (UVSQ/Paris-Saclay). Il propose une implémentation complète du jeu Puissance 4, intégrant une interface graphique moderne et une Intelligence Artificielle basée sur l'apprentissage par renforcement profond (DQN).
-🌟 Fonctionnalités
+ Fonctionnalités
 
     Moteur de jeu robuste : Gestion complète des règles, détection de victoire et d'égalité.
 
@@ -17,10 +17,10 @@ Ce projet est réalisé dans le cadre de ma formation IATIC-5 à l'ISTY (UVSQ/Pa
 
     Mode "Headless" : Entraînement massif de l'IA sans interface graphique pour une performance accrue.
 
-🏗️ Architecture du Réseau DQN
+ Architecture du Réseau DQN
 
 L'agent DQN utilise un réseau de neurones conçu pour interpréter la grille comme une image à deux canaux (6×7×2), permettant de distinguer ses propres pions de ceux de l'adversaire.
-🚀 Installation
+ Installation
 
     Cloner le dépôt :
     Bash
@@ -51,7 +51,7 @@ Bash
 
 python src/main.py --p1 dqn --p2 random --train --episodes 1000 --headless
 
-📂 Structure du projet
+ Structure du projet
 
     src/core/ : Logique métier (Board, Rules).
 
@@ -63,7 +63,7 @@ python src/main.py --p1 dqn --p2 random --train --episodes 1000 --headless
 
     models/ : Sauvegardes des modèles TensorFlow entraînés (.h5).
 
-📚 Références & Remerciements
+ Références & Remerciements
 
     M. Franck Talbart (ISTY) : Pour la coordination du projet.
 
@@ -71,6 +71,6 @@ python src/main.py --p1 dqn --p2 random --train --episodes 1000 --headless
 
     Cursus IATIC 3-5 : Pour l'ensemble des compétences en génie logiciel et IA acquises à l'ISTY.
 
-📄 Licence
+ Licence
 
 Ce projet est réalisé dans un but pédagogique pour l'obtention du diplôme d'ingénieur ISTY.
