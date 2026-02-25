@@ -1,13 +1,22 @@
-# Core IA
+# --- Cœur du projet (Logique et IA) ---
 numpy>=1.23.5
 tensorflow>=2.13.0
+keras>=2.13.1
 
-# Interface Graphique
+# --- Interface Graphique (GUI) ---
 pygame>=2.5.0
 
-# Analyse et Visualisation
+# --- Analyse de données et Visualisation ---
 pandas>=2.0.0
 matplotlib>=3.7.0
+seaborn>=0.12.0
 
-# Tests et Qualité
+# --- Entraînement et Monitoring ---
+tensorboard>=2.13.0
+
+# --- Tests et Qualité du code ---
 pytest>=7.0.0
+black>=23.0.0
+
+# --- Environnement Système ---
+python-dotenv>=1.0.0
